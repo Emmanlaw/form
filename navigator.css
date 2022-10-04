@@ -1,0 +1,47 @@
+/* main nav */
+ul.nav {
+    list-style-type: none;
+    margin: 0px;
+}
+span {
+    color: red;
+}
+
+/* remove the bullets and margins and padding */
+ul.remove {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* vertical navigation bar */
+ul.vertical {
+    list-style-type: none;
+}
+.vertical li a {
+    display: block;
+    width: 80px;
+    background-color: turquoise;
+}
+/* vertical nav bar */
+.vertical1 {
+    background-color: #1C2541;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 200px;
+    border: 1px solid black;
+}
+.vertical1 li a {
+    text-decoration: none;
+    margin: 0;
+    padding: 10px;
+    display: block;
+    color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+.vertical1 li a:hover {
+    background-color: #0B132B;
+    color: grey;
+}
