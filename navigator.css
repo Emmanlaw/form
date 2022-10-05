@@ -45,3 +45,40 @@ ul.vertical {
     background-color: #0B132B;
     color: grey;
 }
+li a.active {
+    background-color: #0B132B;
+}
+
+/* Full-height Fixed Vertical Navbar */
+ul.vertical2 {
+    background-color: #3066BE;
+    list-style-type: none;
+    width: 20%;
+    position: fixed;
+    top: 0%;
+    height: 100%;
+    overflow: auto;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.vertical2 li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+
+
+
+div {
+    margin-left: 25%;
+}
+header {
+    text-align: center;
+}
+body {
+    margin: 0;
+}

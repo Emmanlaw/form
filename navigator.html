@@ -8,15 +8,27 @@
     <link rel="stylesheet" href="navigator.css">
 </head>
 <body>
+    <header>
     <h1>CSS Navigation Bar</h1>
+    <h2>Full-height Fixed Vertical Navbar</h2>
+    <p>Create a full-height, "sticky" side navigation</p>
+    </header>
     <nav>
+        <ul class="vertical2">
+            <li><a class="active2" href="Home">Home</a></li>
+            <li><a href="vertical">Vertical Navbar</a></li>
+            <li><a href="horizontal">Horizontal Navbar</a></li>
+            <li><a href="about">About</a></li>
+        </ul>
+    </nav>
+    <div>
         <ul class="nav">
             <li>Home</li>
             <li>Vertical Navbar</li>
             <li>Horizontal Navbar</li>
             <li>About</li>
         </ul>
-    </nav>
+    </div>
     <div>
         <h2>Navigation Bars</h2>
         <p>Having easy-to-use navigation is important for any web site.</p>
@@ -61,11 +73,13 @@
         <p>You can also set the width of <span>ul</span>, and remove the width of <span>anchor</span>, as they will take up the full width available when displayed as block elements. This will produce the same result as our previous examples.</p>
         <h4>Vertical Navigation Bar Examples:</h4>
         <ul class="vertical1">
-            <li><a href="home">Home</a></li>
+            <li><a class="active" href="home">Home</a></li>
             <li><a href="vertical">Vertical Navbar</a></li>
             <li><a href="horizontal">Horizontal Navbar</a></li>
             <li><a href="about">About</a></li>
         </ul>
+        <h2>Active/Current Navigation Link</h2>
+        <p>Add an "active" class to the currnt link to let the user know which page is on, you can add <span>class</span> to the <span>anchor</span> tag</p>
     </div>
 </body>
 </html>
